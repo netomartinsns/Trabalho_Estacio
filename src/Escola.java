@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 
+@SuppressWarnings("hiding")
 class Escola<Endereco, Departamento, Aluno> {
     //Atributos
     @SuppressWarnings("unused")

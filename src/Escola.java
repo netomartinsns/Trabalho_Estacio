@@ -3,7 +3,6 @@ import java.util.ArrayList;
 @SuppressWarnings("hiding")
 class Escola<Endereco, Departamento, Aluno> {
     //Atributos
-    @SuppressWarnings("unused")
     private String nome, CNPJ;   
     @SuppressWarnings("unused")
     private Endereco endereco;
@@ -38,5 +37,6 @@ class Escola<Endereco, Departamento, Aluno> {
     public static void main(String[] args) {
         Escola<String, String, String> escola = new Escola<>("Escola Geni Gomes", "27.488.001/0002-22");
         System.out.println("Escola criada: " + escola.nome);
+        System.out.println("CNPJ: " + escola.CNPJ);
     }
 }
